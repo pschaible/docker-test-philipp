@@ -1,9 +1,0 @@
-version: "3"
-
-services:
-  anomaly_detector:
-    container_name: anomalyDetector
-    build: .
-    command: python first_file.py -d /data/input.json /data/output.json
-    volumes:
-      - .:/data
