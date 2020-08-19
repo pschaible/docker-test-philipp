@@ -6,13 +6,13 @@ jupyter
 jupyter-client
 jupyter-console
 jupyter-core
-numpy
+tensorflow
+numpy==1.19.0
 pandas
 plotly
 scikit-learn
-scipy
+scipy==1.4.1
 seaborn
 sklearn
 statsmodels
-tensorflow
 matplotlib

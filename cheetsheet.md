@@ -40,3 +40,8 @@ CMD ["/usr/sbin/sshd", "-D"]
 
 - `echo username:newpassword | chpasswd`
   // change password of a container from the beginning.
+
+- `docker system prune -a`
+  // delete all Containers and all images. 
+    
+https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes-de
